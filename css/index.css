@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+:root {
+    --primary color: black;
+}
+
+header p b i {
+    color: white;
+    text-shadow: 2px 2px 5px white;
+}
+
+
+body {
+    height: 5000px;
+    max-width: 800px;
+    margin: auto;
+}
+
+:root {
+    font-size: 18px;
+}
+
+table, th, td {
+
+    border: 2px solid red;
+}
+
+table {
+    width: 50%;
+    background-color: #f5fc23;
+}
+
+h1 span {
+    color: black;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+h1 {
+    text-shadow: 2px 2px 5px red;
+    font-family: 'Lobster', cursive;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    justify-content: space-around;
+    border: 2px solid red;
+    margin: 0;
+    background-color: #f5fc23;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 500px) {
+    nav ul {
+        flex: 1;
+    }
+}
+
+header .banner {
+    background-image: url(../img/sky.jpg);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+article img {
+    width: 800px;
+    height: 532px;
+}
+
+figure img {
+    width: 200px;
+    height: 100px;
+}
+
+
